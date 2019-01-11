@@ -1,0 +1,5 @@
+filename: src/models/index.ts
+engine: handlebars
+template: modelsBarrel
+mapping:
+  models: /models

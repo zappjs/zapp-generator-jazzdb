@@ -1,0 +1,11 @@
+template: model
+engine: handlebars
+filename:
+  template: "src/models/{{{case name 'camel'}}}.ts"
+  engine: handlebars
+  mapping:
+    name: '@key'
+iterator: models
+mapping:
+  name: '@key'
+  attributes: ./attributes
